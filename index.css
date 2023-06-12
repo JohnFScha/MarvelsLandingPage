@@ -1,0 +1,152 @@
+/* **************** Genaral styles **************** */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Marvel', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  background-image: url("./img/17208-spiderman.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  gap: 5%;
+  max-height: 100vh;
+}
+
+/* **************** Header & nav **************** */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./img/—Pngtree—spider\ spider\ web\ er\ cobweb_3940716.png"), linear-gradient(to top, rgb(172, 18, 18), rgb(28, 28, 165));
+  background-position: center;
+}
+
+header img {
+  max-width: 95%;
+  max-height: 95%;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-style: italic;
+  color: blue;
+  text-shadow: red 2px 2px 2px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header ul li {
+  font-size: large;
+  color: red !important;
+  text-shadow: blue 1px 1px 1px;
+  font-weight: 700;
+  margin-right: 15px;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0.53);
+  border-radius: 5px;
+  box-shadow: black 2px 2px 2px;
+}
+
+/* **************** Main **************** */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background: url("./img/pngwing.com.png"), rgb(20, 20, 124);
+  background-position: center;
+  object-fit: fill;
+  border-radius: 5%;
+  padding: 3%;
+  margin: 1%;
+  color: red !important;
+  box-shadow: red 1px 1px 5px 1px;
+}
+
+main section figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section figure img {
+  max-width: 33%;
+  border-radius: 5%;
+}
+
+#sting {
+  max-width: 66%;
+  min-height: 250px;
+}
+
+#sign {
+  max-width: 50%;
+  min-height: 250px;
+}
+
+/* **************** Footer **************** */
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./img/—Pngtree—spider\ spider\ web\ er\ cobweb_3940716.png"), linear-gradient(to bottom, rgb(172, 18, 18), rgb(28, 28, 165));
+  background-position: top;
+  color: red;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  text-shadow: black 2px 2px 2px;
+}
+
+footer section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  gap: 0;
+}
+
+footer section a {
+  width: 5%;
+}
+
+footer section a img {
+  max-width: 66%;
+}
