@@ -80,6 +80,10 @@ figcaption {
   border-bottom-right-radius: 50px;
 }
 
+.gallery-section .image-gallery #last img {
+  box-shadow: none;
+}
+
 #last:hover {
   opacity: 0.46;
   transition: all 0.2s;
@@ -107,6 +111,10 @@ figcaption {
   align-items: center;
 }
 
+.videogame-section .image-gallery #last img {
+  box-shadow: none;
+}
+
 .videogame-section figure img {
   width: 250px;
 }
@@ -122,10 +130,18 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px; 
+
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.comic-section .image-gallery img {
+  width: 150px;
 }
 
 .comic-section .image-gallery #last img {
-  max-width: 55%;
+  width: 300px;
+  box-shadow: none;
 }
 
 /* Media Queries (adjust as needed) */
