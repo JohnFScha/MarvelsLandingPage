@@ -1,78 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Metadata -->
+  <!--METADATA-->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Spidey's Fan Page">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google fonts -->
+  <meta name="description" content="Spidey's Fan Page">
+  <meta name="keywords" content="spiderman fan page html css js">
+  <!--Google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <!-- CSS -->
-  <link rel="stylesheet" href="./index.css">
-  <!-- Title -->
-  <title>Main Page</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="index.css">
+  <title>Main page</title>
 </head>
 <body>
   <header>
-    <img src="./img/spidey.png" alt="spidey's logo">
-    <h1>Spiderman's Fan Page</h1>
-    <nav>
+    <h1>Spider-Man Fan Page</h1>
+    <nav class="main-nav">
       <ul>
-        <li><a href="./html/filmography.html">Appearances</a></li>
-        <li><a href="./html/origin.html">Origin and Story</a></li>
-        <li><a href="./html/newsletter.html">Newsletter</a></li>
+        <li><a href="#characters">Characters</a></li>
+        <li><a href="#comics">Comics</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#news">News</a></li>
       </ul>
     </nav>
+    <img src="./img/Marvel_Logo.svg.png" alt="">
   </header>
-
+  
   <main>
-    <section id="appearances">
-      <h2>Appearances</h2>
-      <figure class="figure">
-        <img src="./img/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg" alt="Into the spiderverse">
-        <figcaption>Spidey in "Into the spiderverse"</figcaption>
-      </figure>
-      <br>
-      <p>Check <a href="./html/filmography.html">this</a> section in order to get a complete list of your friendly neighborhood spider-man's audio-visual appearences!</p>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h2>Welcome to the Amazing World of Spider-Man!</h2>
+        <p>Explore the thrilling adventures of your friendly neighborhood hero.</p>
+        <a href="#info" class="cta-button">Learn More</a>
+        <a href="./html/news.html" target="_blank" class="cta-button">Contact</a>
+      </div>
     </section>
-
-    <section id="origin-story">
-      <h2>Origin &amp; Story</h2>
-      <figure class="figure">
-        <img src="./img/spiderman-bite-1590787974344_160w.jpg" alt="the mutated spider biting peter parker's hand" id="sting">
-        <figcaption>Peter Parker getting bitten by the mutated spider</figcaption>
-      </figure>
-      <br>
-      <p>Check <a href="./html/origin.html">this</a> section to know more about the origin story of Spidey!</p>
+    
+    <section class="info-section" id="info">
+      <h2>About Spider-Man</h2>
+      <p>Welcome to our web-slinging haven, where the heroic legacy of Spider-Man comes to life! Delve into the remarkable story of this iconic wall-crawler and his enduring journey through the annals of comic book history.</p>
+      <p>Born from the creative minds of writer Stan Lee and artist Steve Ditko, Spider-Man made his stunning debut in the unforgettable pages of "Amazing Fantasy" issue #15 in August 1962. Witnessing the transformative bite of a radioactive spider, high school student Peter Parker became more than a mere mortal, embracing his newfound superhuman abilities to protect the innocent and uphold justice.</p>
+      <p>Since that fateful day, Spider-Man has captivated the hearts of fans around the world, swinging through the concrete jungles of New York City as both a beloved local hero and a symbol of hope. His struggles with personal responsibility, heart-wrenching losses, and the eternal battle between his dual identities as Peter Parker and Spider-Man have endeared him to generations.</p>
+      <p>Over the years, Spider-Man has spun his web across various comic book series, including the long-running "The Amazing Spider-Man," captivating readers with thrilling storylines and memorable villains like the Green Goblin, Doctor Octopus, and Venom. His adventures have extended beyond the realm of comics, gracing the silver screen in spectacular blockbuster films that have further solidified his status as one of pop culture's most beloved superheroes.</p>
+      <p>Join us as we celebrate Spider-Man's enduring legacy, exploring his enthralling tales, unforgettable characters, and the enduring spirit that has made him a true icon. Discover the webslinger's remarkable journey from humble origins to becoming a symbol of courage, reminding us all that even the most ordinary among us can achieve extraordinary things.</p>
     </section>
-
-    <section id="newsletter">
-      <h2>Newsletter</h2>
-      <figure class="figure">
-        <img src="./img/FY25rd3VQAAaBaI.jpg" alt="peter parker signing some papers" id="sign">
-        <figcaption>Join our newsleterr!</figcaption>
-      </figure>
+    
+    <section class="gallery-section">
+      <h2>Characters:</h2>
+      <p>This are some, but not all, of the characters depicted in Stan Lee's masterpiece!</p>
       <br>
-      <p>Check <a href="./html/filmography.html">this</a> section to join our mailing list, and keep updated with Spidey's latest adventures!</p>
+      <div class="gallery-exterior">
+        <div class="image-gallery">
+          <figure>
+            <img src="./img/spidey.jpg" alt="spidey">
+            <figcaption>Peter Parker</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/mary-jane.jpg" alt="mary jane watson">
+            <figcaption>Mary Jane</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/venom.jpg" alt="eddie brock alias venom">
+            <figcaption>Venom</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/doctor-octopus.jpg" alt="otto octavius alias doctor octopus">
+            <figcaption>Doctor Octopus</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/mysterio.jpg" alt="mysterio">
+            <figcaption>Doctor Octopus</figcaption>
+          </figure>
+          <figure id="last">
+            <a href="./html/characters.html" target="_blank">
+              <img src="./img/arrow.png" alt="see more">
+              <figcaption>More:</figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section class="videogame-section">
+      <h2>Videogames:</h2>
+      <p>Sample through a few of spidey's videogame adventures, more info in it's own section!</p>
+      <br>
+      <div class="gallery-exterior">
+        <div class="image-gallery">
+          <figure>
+            <img src="./img/spiderman-game-1.png" alt="game 1">
+            <figcaption>Separation anxiety</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/spiderman-game-2.png" alt="game 2">
+            <figcaption>Sinister Six</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/spiderman-game-3.png" alt="game 3">
+            <figcaption>Spider-man (psx)</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/spiderman-game-6.jpg" alt="game 6">
+            <figcaption>Ultimate Spider-Man</figcaption>
+          </figure>
+          <figure>
+            <img src="./img/spiderman-game-9.png" alt="game 9">
+            <figcaption>Miles Morales</figcaption>
+          </figure>
+          <figure id="last">
+            <a href="./html/characters.html" target="_blank">
+              <img src="./img/arrow.png" alt="see more">
+              <figcaption>More:</figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section class="comic-section">
+      <h2>Comic Books</h2>
+      <p>See some of spidey's original comic book material!</p>
+      <br>
+      <div class="image-gallery">
+        <figure>
+          <img src="./img/amazing-spiderman.jpg" alt="comic 1">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/amazing-spiderman-2.jpg" alt="comic 2">
+          <figcaption>Sinister Six</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/amazing-spiderman-3.jpg" alt="comic 3">
+          <figcaption>Spider-man (psx)</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/peter-parker.jpg" alt="comic 4">
+          <figcaption>Ultimate Spider-Man</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/peter-parker-2.jpg" alt="comic 5">
+          <figcaption>Miles Morales</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/peter-parker-3.jpg" alt="comic 6">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/spider-man-166.jpg" alt="comic 7">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/spider-man-167.jpg" alt="comic 8">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/spider-man-190.jpg" alt="comic 9">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/web-of-spiderman-2.jpg" alt="comic 10">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/web-of-spiderman-3.jpg" alt="comic 11">
+          <figcaption>Separation anxiety</figcaption>
+        </figure>
+        <figure id="last">
+          <a href="./html/comics.html" target="_blank">
+            <img src="./img/arrow.png" alt="see more">
+            <figcaption>More:</figcaption>
+          </a>
+        </figure>
+      </div>
     </section>
   </main>
-
+  
   <footer>
-    <p>&copy; 2023 Spiderman Fan Page. All rights reserved.</p>
-    <section id="social">
-      <a href="https://www.facebook.com/spiderman" target="_blank" rel="noopener noreferrer">
-        <img src="./img/facebook.png" alt="facebook">
-      </a>
-      <a href="https://www.instagram.com/spiderman/" target="_blank" rel="noopener noreferrer">
-        <img src="./img/instagram.png" alt="instagram">
-      </a>
-      <a href="https://twitter.com/SpiderMan" target="_blank" rel="noopener noreferrer">
-        <img src="./img/twitter.png" alt="instagram">
-      </a>
-    </section>
+    <p>&copy; 2023 Spider-Man Fan Page. All rights reserved.</p>
+    <div class="logo-container">
+      <img src="./img/instagram.png" alt="spidey's instagram page">
+      <img src="./img/twitter.png" alt="spidey's twitter page">
+      <img src="./img/facebook.png" alt="spidey's facebook page">
+    </div>
   </footer>
 </body>
 </html>
