@@ -18,3 +18,137 @@ a {
   display: inline-block;
   color: inherit;
 }
+
+/* **************** Header + nav **************** */
+
+header {
+  background-color: #202020;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+ max-width: 100px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.main-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav ul li {
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.main-nav ul li:hover {
+  background-color: #fff;
+  color: #202020;
+  border: solid #e62429 1px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.main-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main-nav ul li a {
+  font-size: 18px;
+}
+
+/******************************* Hero section *********************************/
+
+main {
+  padding: 20px;
+}
+
+.hero-section {
+  background-image: url("./img/17208-spiderman.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 575px;
+  padding: 50px;
+  color: #fff;
+  box-shadow: #202020 3px 3px 3px; 
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.hero-content {
+  max-width: 350px;
+  background-color: #202020;
+  padding: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e62429;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-left: 5px;
+  transition: all 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #202020;
+  transition: all 0.2s;
+}
+
+
+/* **************** Footer **************** */
+
+footer {
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer img {
+  max-width: 35px;
+  margin: 10px;
+  border-radius: 50%;
+}

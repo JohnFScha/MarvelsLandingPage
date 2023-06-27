@@ -1,61 +1,5 @@
 @import url("./main.css");
 
-/* Page layout styles */
-header {
-  background-color: #202020;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
- max-width: 100px;
-}
-
-h1 {
-  font-size: 28px;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.main-nav {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.main-nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-nav ul li {
-  padding: 10px;
-  transition: all 0.2s;
-}
-
-.main-nav ul li:hover {
-  background-color: #fff;
-  color: #202020;
-  border: solid #e62429 1px;
-  border-radius: 5px;
-  transition: all 0.2s;
-}
-
-.main-nav ul li:last-child {
-  margin-right: 0;
-}
-
-.main-nav ul li a {
-  font-size: 18px;
-}
-
 main {
   padding: 20px;
 }
@@ -178,26 +122,6 @@ h2 {
 
 .comic-section .image-gallery #last img {
   max-width: 55%;
-}
-
-footer {
-  background-color: #202020;
-  color: #fff;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer .logo-container{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer img {
-  max-width: 35px;
-  margin: 10px;
-  border-radius: 50%;
 }
 
 /* Media Queries (adjust as needed) */

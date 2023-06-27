@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Metadata -->
+  <!--METADATA-->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Spidey's Fan Page">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google fonts -->
+  <meta name="description" content="Spidey's Fan Page">
+  <meta name="keywords" content="spiderman fan page html css js">
+  <!--Google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <!-- CSS -->
-  <link rel="stylesheet" href="../css/origin.css">
-  <!-- Title -->
-  <title>Orgin & Story</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="../css/games.css">
+  <title>Videogames</title>
 </head>
 <body>
   <header>
-    <img src="../img/spidey.png" alt="spidey's logo">
-    <h1>Spiderman's Fan Page</h1>
-    <nav>
+    <h1>Spider-Man Fan Page</h1>
+    <nav class="main-nav">
       <ul>
-        <li><a href="../html/filmography.html">Appearances</a></li>
-        <li><a href="../html/origin.html">Origin and Story</a></li>
-        <li><a href="../html/newsletter.html">Newsletter</a></li>
+        <li><a href="#characters">Characters</a></li>
+        <li><a href="#comics">Comics</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#news">News</a></li>
       </ul>
     </nav>
+    <a href="https://www.marvel.com/" target="_blank" rel="noopener noreferrer">
+      <img src="../img/Marvel_Logo.svg.png" alt="Marvel_Logo">
+    </a>
   </header>
-
+  
   <main>
-    
+    <section class="hero-section">
+      <div class="hero-content">
+        <h2>Welcome to the Amazing World of Spider-Man!</h2>
+        <p>Explore the thrilling adventures of your friendly neighborhood hero.</p>
+        <a href="#info" class="cta-button">Learn More</a>
+        <a href="./html/news.html" target="_blank" class="cta-button">Contact</a>
+      </div>
+    </section>
   </main>
-
+  
   <footer>
-    <p>&copy; 2023 Spiderman Fan Page. All rights reserved.</p>
-    <section id="social">
-      <a href="https://www.facebook.com/spiderman" target="_blank" rel="noopener noreferrer">
-        <img src="../img/facebook.png" alt="facebook">
-      </a>
+    <p>&copy; 2023 Spider-Man Fan Page. All rights reserved.</p>
+    <div class="logo-container">
       <a href="https://www.instagram.com/spiderman/" target="_blank" rel="noopener noreferrer">
-        <img src="../img/instagram.png" alt="instagram">
+        <img src="./img/instagram.png" alt="spidey's instagram page">
       </a>
       <a href="https://twitter.com/SpiderMan" target="_blank" rel="noopener noreferrer">
-        <img src="../img/twitter.png" alt="instagram">
+        <img src="../img/twitter.png" alt="spidey's twitter page">
       </a>
-    </section>
+      <a href="https://www.facebook.com/spiderman" target="_blank" rel="noopener noreferrer">        
+        <img src="../img/facebook.png" alt="spidey's facebook page">
+      </a>
+    </div>
   </footer>
 </body>
 </html>
