@@ -19,6 +19,14 @@ a {
   color: inherit;
 }
 
+li[aria-current="true"] {
+  background-color: #fff;
+  color: #202020;
+  border: solid #e62429 1px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
 /* **************** Header + nav **************** */
 
 header {
