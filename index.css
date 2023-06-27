@@ -52,6 +52,10 @@ h2 {
   transition: all 0.2s;
 }
 
+figcaption {
+  font-size: 1.2em;
+}
+
 .gallery-section {
   margin-top: 40px;
   text-align: center;
