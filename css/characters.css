@@ -1,1 +1,58 @@
 @import url('../main.css');
+
+.hero-section {
+  background-image: url("../img/characters.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.characters-section {
+  margin-top: 20px;
+}
+
+.characters-section h2 {
+  text-align: center;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.character-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.character-summary {
+  font-size: 14px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section h2 a {
+  color: blue;
+}
