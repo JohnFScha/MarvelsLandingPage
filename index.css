@@ -42,10 +42,6 @@ figcaption {
   justify-content: space-between;
   overflow: hidden;
   padding: 10px;
-  border: #202020 2px solid;
-  color: #fff;
-  background-color: #e62429;
-  border-radius: 10px;
 }
 
 .image-gallery img {
@@ -67,7 +63,7 @@ figcaption {
 .info-section {
   margin-top: 40px;
   text-align: center;
-  width: 75%;
+  width: 100%;
   margin: 20px auto;
 }
 
