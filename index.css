@@ -71,6 +71,11 @@ figcaption {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  padding: 10px;
+  border: #202020 2px solid;
+  color: #fff;
+  background-color: #e62429;
+  border-radius: 10px;
 }
 
 .image-gallery img {
@@ -130,7 +135,6 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px; 
-
   justify-items: stretch;
   align-items: stretch;
 }
