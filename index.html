@@ -15,15 +15,15 @@
   <link rel="stylesheet" href="./index.css">
   <title>Main page</title>
 </head>
-<body>
+<body id="content-container">
   <header>
     <h1>Spider-Man Fan Page</h1>
     <nav class="main-nav">
       <ul>
-        <li><a href="./html/characters.html">Characters</a></li>
-        <li><a href="./html/comics.html">Comics</a></li>
-        <li><a href="./html/games.html">Games</a></li>
-        <li><a href="./html/news.html">News</a></li>
+        <li><a href="./html/characters.html" class="navigation-link" data-page="characters">Characters</a></li>
+        <li><a href="./html/comics.html" class="navigation-link" data-page="comics">Comics</a></li>
+        <li><a href="./html/games.html" class="navigation-link" data-page="games">Games</a></li>
+        <li><a href="./html/news.html" class="navigation-link" data-page="news">News</a></li>
       </ul>
     </nav>
     <a href="https://www.marvel.com/" target="_blank" rel="noopener noreferrer">
@@ -45,9 +45,7 @@
       <h2>About Spider-Man</h2>
       <p>Welcome to our web-slinging haven, where the heroic legacy of Spider-Man comes to life! Delve into the remarkable story of this iconic wall-crawler and his enduring journey through the annals of comic book history.</p>
       <p>Born from the creative minds of writer Stan Lee and artist Steve Ditko, Spider-Man made his stunning debut in the unforgettable pages of "Amazing Fantasy" issue #15 in August 1962. Witnessing the transformative bite of a radioactive spider, high school student Peter Parker became more than a mere mortal, embracing his newfound superhuman abilities to protect the innocent and uphold justice.</p>
-      <p>Since that fateful day, Spider-Man has captivated the hearts of fans around the world, swinging through the concrete jungles of New York City as both a beloved local hero and a symbol of hope. His struggles with personal responsibility, heart-wrenching losses, and the eternal battle between his dual identities as Peter Parker and Spider-Man have endeared him to generations.</p>
       <p>Over the years, Spider-Man has spun his web across various comic book series, including the long-running "The Amazing Spider-Man," captivating readers with thrilling storylines and memorable villains like the Green Goblin, Doctor Octopus, and Venom. His adventures have extended beyond the realm of comics, gracing the silver screen in spectacular blockbuster films that have further solidified his status as one of pop culture's most beloved superheroes.</p>
-      <p>Join us as we celebrate Spider-Man's enduring legacy, exploring his enthralling tales, unforgettable characters, and the enduring spirit that has made him a true icon. Discover the webslinger's remarkable journey from humble origins to becoming a symbol of courage, reminding us all that even the most ordinary among us can achieve extraordinary things.</p>
     </section>
     
     <section class="gallery-section">
@@ -195,5 +193,7 @@
       </a>
     </div>
   </footer>
+
+  <script src="./index.js"></script>
 </body>
 </html>
