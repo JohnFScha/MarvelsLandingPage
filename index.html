@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!--Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <!--CSS-->
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./index.css">
@@ -31,7 +33,7 @@
     </a>
   </header>
   
-  <main>
+  <main class="animate__animated animate__fadeIn">
     <section class="hero-section">
       <div class="hero-content">
         <h2>Welcome to the Amazing World of Spider-Man!</h2>
@@ -75,7 +77,7 @@
             <figcaption>Doctor Octopus</figcaption>
           </figure>
           <figure id="last">
-            <a href="./html/characters.html" target="_blank">
+            <a href="./html/characters.html" class="navigation-link" data-page="characters">
               <img src="./img/arrow.png" alt="see more">
               <figcaption>More:</figcaption>
             </a>
@@ -111,7 +113,7 @@
             <figcaption>Miles Morales</figcaption>
           </figure>
           <figure id="last">
-            <a href="./html/games.html" target="_blank">
+            <a href="./html/games.html" class="navigation-link" data-page="games">
               <img src="./img/arrow.png" alt="see more">
               <figcaption>More:</figcaption>
             </a>
@@ -170,7 +172,7 @@
           <figcaption>Web of Spider-Man #3</figcaption>
         </figure>
         <figure id="last">
-          <a href="./html/comics.html" target="_blank">
+          <a href="./html/comics.html" class="navigation-link" data-page="comics">
             <img src="./img/arrow.png" alt="see more">
             <figcaption>More:</figcaption>
           </a>
