@@ -1,1 +1,98 @@
 @import url('../main.css');
+
+.hero-section {
+  background-image: url('../img/daily-bugle.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  text-align: start;
+  background-color: transparent;
+  backdrop-filter: blur(25px);
+  box-shadow: black 5px 5px 5px 2px;
+}
+
+.hero-content h2 {
+  text-align: start;
+}
+
+.news {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.news h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  border: #777 solid 1px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form-group.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.first-name {
+  width: 75%;
+  margin-right: 10px;
+}
+
+.last-name {
+  width: 75%;
+
+}
+
+.form-group.flex-container input {
+  width: 100%;
+}
+
+.form-group.flex-container input:first-child {
+  margin-right: 10px;
+}

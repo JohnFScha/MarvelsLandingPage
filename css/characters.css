@@ -6,6 +6,17 @@
   background-position: top;
 }
 
+.hero-content {
+  text-align: start;
+  background-color: transparent;
+  backdrop-filter: blur(25px);
+  box-shadow: black 5px 5px 5px 2px;
+}
+
+.hero-content h2 {
+  text-align: start;
+}
+
 .characters-section {
   margin-top: 20px;
 }

@@ -1,4 +1,4 @@
-// Function to make an AJAX request and load HTML content
+//Function to make an AJAX request and load HTML content
 function loadPage(url, containerId) {
   var xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function() {
