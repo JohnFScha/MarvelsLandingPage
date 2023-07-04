@@ -11,6 +11,7 @@
   background-color: transparent;
   backdrop-filter: blur(25px);
   box-shadow: black 5px 5px 5px 2px;
+  color: black;
 }
 
 .hero-content h2 {
