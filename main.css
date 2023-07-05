@@ -40,6 +40,10 @@ header {
   align-items: center;
 }
 
+header .menu-btn {
+  display: none;
+}
+
 header img {
  max-width: 100px;
 }
@@ -48,13 +52,6 @@ h1 {
   font-size: 28px;
   font-weight: 700;
   font-style: italic;
-}
-
-.main-nav {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .main-nav ul {
@@ -89,7 +86,7 @@ h1 {
 
 main {
   padding: 20px;
-  animation-duration: 5s; 
+  animation-duration: 5s;
   animation-timing-function: ease-in;
   animation-name: fadein;
   @keyframes fadein {
@@ -105,7 +102,7 @@ main {
   min-height: 575px;
   padding: 50px;
   color: #fff;
-  box-shadow: #202020 3px 3px 3px; 
+  box-shadow: #202020 3px 3px 3px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
@@ -207,4 +204,44 @@ footer img {
 
 .footer-section a:hover {
   text-decoration: underline;
+}
+
+/* Global styles for small screens */
+@media screen and (max-width: 426px) {
+  /* Reduce grid containers to 1 column */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Change flex containers to column direction */
+  .flex-container {
+    flex-direction: column;
+  }
+
+  /* Adjust font size accordingly */
+  body {
+    font-size: 14px;
+  }
+
+  /* Adjust font size for specific elements if needed */
+
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+
+  /* Hide the nav inside the header and show a collapsible button */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav {
+    margin: 20px 0;
+  }
 }

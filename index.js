@@ -48,3 +48,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // Initial page load (Home page)
 navigateTo("index.html")
+
+const menu = document.querySelector("#menu");
+
+console.log(menu)
+
+function myFunction() {
+  menu.classList.add("active");
+  console.log(menu)
+}

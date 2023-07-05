@@ -30,6 +30,8 @@
 }
 
 form {
+  width: 90%;
+  margin: auto;
   border: #777 solid 1px;
   padding: 15px;
   border-radius: 5px;
@@ -80,14 +82,9 @@ form {
   justify-content: center;
 }
 
-.first-name {
+.first-name, .last-name {
   width: 75%;
   margin-right: 10px;
-}
-
-.last-name {
-  width: 75%;
-
 }
 
 .form-group.flex-container input {
@@ -96,4 +93,10 @@ form {
 
 .form-group.flex-container input:first-child {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 426px) {
+  .first-name, .last-name {
+    width: 100%;
+  }
 }

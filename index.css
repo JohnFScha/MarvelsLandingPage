@@ -114,41 +114,13 @@ figcaption {
   box-shadow: none;
 }
 
-/* Media Queries (adjust as needed) */
-@media (max-width: 768px) {
-  
-  .gallery-exterior {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 800px;
-  }
-
+@media screen and (max-width: 426px)  {
   .image-gallery {
-    width: 100%;
-    height: 200%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
   }
 
   .comic-section .image-gallery {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .cta-button {
-    font-size: 16px;
   }
 }
